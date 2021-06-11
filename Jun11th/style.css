@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width : 576px){
+    .bg {
+        background-color: black;
+        min-height: 100vh;
+    }
+    .netflix-image {
+        align-self: flex-start;
+        width: 180px;
+        height: 80px;
+    }
+    .login-container {
+        background-image: black;
+    }
+    .footer-details-con {
+        display: flex;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .footer-details {
+        width: 50%;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: grey;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .bg {
+        background-image: url('https://bramptonist.com/wp-content/uploads/2018/06/netflix-image.jpg');
+    }
+    .bg::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: .7;
+        z-index: -1;
+    }
+    .netflix-image {
+        align-self: flex-start;
+        width: 260px;
+        height: 120px;
+    }
+    .footer-details-con {
+        display: flex;
+        margin-bottom: 20px;
+        width: 50%;
+        transform: translate(50%);
+    }
+    .footer-details {
+        width: 25%;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: grey;
+        margin-bottom: 20px;
+    }
+}
+
+.bg {
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.login-container {
+    background: rgba(0, 0, 0, 0.73);
+    padding: 70px;
+    color: #fff;
+    min-width: 40%;
+    min-height: 130%;
+    margin-bottom: 40px;
+}
+
+
+.sign-text {
+    color: white;
+    font-size: 35px;
+    font-family: Roboto;
+    font-weight: 1000;
+    padding: 10px;
+}
+.input-element {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+}
+
+
+.button {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(207, 16, 16);
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.need-check-con {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+.check-con {
+    display: flex;
+    flex-direction: row;
+}
+.check-box-remem {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 100;
+}
+.check-need {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+.fb-con {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.icon {
+    color: blue;
+    font-size: 20px;
+    background-color: white;
+}
+.fb {
+    color: grey;
+    font-size: 15px;
+    font-family: 'Roboto';
+    margin-left: 10px;;
+}
+.new-nf {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: grey;
+}
+.new-sign {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.protect-nf {
+    font-size: 15px;
+    color: lightgrey;
+    font-family: 'Roboto';
+    width: 88%;
+}
+.learn {
+    color: blue;
+}
+
+.footer-section {
+    background: rgba(0, 0, 0, 0.73);
+    min-height: 40vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.call-nf{
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer-details-con {
+    display: flex;
+    margin-bottom: 20px;
+    width: 50%;
+    transform: translate(50%);
+}
+.call-nf {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.globe-color {
+    color: grey;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.language-button {
+    height: 50px;
+    width: 140px;
+    
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 14px;
+}
+.down-arrow {
+    color: grey;
+    align-self: center;
+    margin-left: 10px;
+}
+.bg-button {
+    background-color: transparent;
+    color: white;
+    border-width: 0px;
+    font-size: 20px;
+}
+.language-option {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+::placeholder {
+    color: white;
+}
