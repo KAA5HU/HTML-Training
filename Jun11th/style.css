@@ -230,8 +230,8 @@
 }
 .down-arrow {
     color: grey;
-    align-self: center;
-    margin-left: 10px;
+    font-size: 20px;
+    align-self: flex-end;
 }
 .bg-button {
     background-color: transparent;
